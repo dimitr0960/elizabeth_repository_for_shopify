@@ -1,7 +1,7 @@
 /** @type {import('tailwindcss').Config} */
+/** npx tailwindcss -i ./src/tailwind.css -o ./assets/application.css --watch */
 module.exports = {
   content: [
-    "./assets/*.liquid",
     "./layout/*.liquid",
     "./sections/*.liquid",
     "./snippets/*.liquid",
