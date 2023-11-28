@@ -95,7 +95,7 @@
                         <!-- Navigation Links For Mobile Menu -->
                         <div class="pt-3">
                             <nav class="grid gap-y-7">
-                                {%  for link in main_menu_linklist %}
+                                {% for link in main_menu_linklist %}
                                     {% if link.links != blank %}
                                         {% assign mobile_link_handle = link.handle | replace: '-', '_' %}
                                         <div class="relative" x-data="{ {{ mobile_link_handle }}: false }">

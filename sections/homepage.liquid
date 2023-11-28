@@ -1,4 +1,4 @@
 <div class="homepage">
-  <img src="{{ 'weeklyhow-logo.png' | asset_img_url: 'large' }}" class="logo">
+  <img src="{{ 'weeklyhow-logo.png' | asset_img_url: 'large' }}" width="{{ image.width }}" height="{{ image.height }}" class="logo" loading="eager">
   <p>{% render 'homepage-text' %}</p>
 </div>
